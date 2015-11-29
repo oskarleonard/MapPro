@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MapPro</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- path adapter -->
+    <string name="path_name">path name</string>
+    <string name="path_length">path_length</string>
+    <string name="path_time">path_time</string>
+    <string name="nr_of_places">Nr of places</string>
+    <string name="startpage_default_intro">This is the english start screen</string>
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/path_name"
+        android:id="@+id/tvPathName"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/no_image"
+            android:scaleType="fitXY"
+            android:id="@+id/ivPath" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TableRow>
+                <TextView
+                    android:text="@string/path_length"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="5"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:id="@+id/tvLength" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/path_time"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="5"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:id="@+id/tvTime" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="@string/nr_of_places"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="5"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:id="@+id/tvNrOfPlaces" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
